@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    background: #112;
+    background-size: 75%;
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    font-family: 'Open Sans Condensed', sans-serif;
+    box-sizing: border-box;
+    border: none; /* Remover a borda */
+    padding: 0.25em 1em;
+    box-shadow: 0px 2px 2px #0003;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #menu-principal ul {
+    padding: 0.25em 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #menu-principal li {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0.5em;
+    transition: all 200ms ease;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  #menu-principal li:hover {
+    background-color: rgba(203, 185, 185, 0.8);
+  }
+  
+  #menu-principal li:first-child {
+    margin-right: 1em;
+  }
+  
+  #menu-principal li:last-child {
+    margin-left: 1em;
+  }
+  
+  #menu-principal a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: none; /* Remover a linha de baixo */
+    text-align: justify;
+  }
+  
+  article {
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  article:hover {
+    transform: scale(1.05);
+  }
+  
+  .container li {
+    color: white;
+  }
+  
+  .hand_social_twitter,
+  .hand_social_insta {
+    cursor: pointer;
+    width: 48px;
+    aspect-ratio: auto 32 / 32;
+    height: 48px;
+    border-radius: 12px;
+    float: right;
+    margin-right: 5px;
+  }
+  
+  .hand_social_twitter {
+    background-image: url(imgs/logo_twitter.svg);
+  }
+  
+  .hand_social_insta {
+    background-image: url(imgs/logo_insta.svg);
+  }
+  
+  .contribuir-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contribuir-content {
+    text-align: center;
+  }
+  
+  .contribuir-content img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .contribuir-content h2 {
+    margin-top: 20px;
+  }
+  
+  .contribuir-content p {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  footer {
+    background-color: #112;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #pix-image {
+    display: block;
+    margin: 0 auto;   
+  }
+  
+  footer {
+    font-family: 'Open Sans Condensed', sans-serif;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #111122;
+    color: #bfbfbf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #footer_nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  #footer_nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #footer_nav li {
+    margin-right: 10px;
+  }
+  
+  #footer_nav li:last-child {
+    margin-right: 0;
+  }
+  
+  #footer_nav a {
+    color: #bfbfbf;
+    text-decoration: none;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .hand_social_insta,
+  .hand_social_twitter {
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 5px;
+  }
+  
+  .hand_social_insta {
+    background-image: url(imgs/logo_insta.svg);
+  }
+  
+  .hand_social_twitter {
+    background-image: url(imgs/logo_twitter.svg);
+  }
+  
